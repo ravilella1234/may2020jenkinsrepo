@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24291" started-at="2020-05-21T03:30:58Z" finished-at="2020-05-21T03:31:23Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002.amazon()[pri:0, instance:com.project.Ecommerce.TC_002@3e3047e6]" name="amazon" class="com.project.Ecommerce.TC_002"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002.amazon()[pri:0, instance:com.project.Ecommerce.TC_002@3e3047e6]" name="amazon" class="com.project.Ecommerce.TC_002"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="24291" started-at="2020-05-21T03:30:58Z" finished-at="2020-05-21T03:31:23Z">
+      <class name="com.project.Ecommerce.TC_002">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.project.Ecommerce.TC_002@3e3047e6]" name="startProcess" is-config="true" duration-ms="14547" started-at="2020-05-21T03:30:58Z" finished-at="2020-05-21T03:31:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.project.Ecommerce.TC_002@3e3047e6]" name="amazon" duration-ms="7497" started-at="2020-05-21T03:31:13Z" finished-at="2020-05-21T03:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.project.Ecommerce.TC_002@3e3047e6]" name="endProcess" is-config="true" duration-ms="2180" started-at="2020-05-21T03:31:20Z" finished-at="2020-05-21T03:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.project.Ecommerce.TC_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
